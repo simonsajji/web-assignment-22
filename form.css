@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Concert+One&family=Dosis:wght@300&family=Lato&family=Montserrat:wght@300&family=Voltaire&display=swap');
+
+
+body{
+
+    background:url("./bak2.jpg");
+}
+#main{
+    margin-left:24%;
+    margin-right:25%;
+    margin-top:5%;
+    padding:5px;
+    border:1px solid rgba(28, 68, 61, 0.4);
+    border-radius: 8px;
+    width: 805px;
+    height:1190px;
+    box-shadow: 0 4px 8px 0 rgba(70, 69, 69, 0.5), 0 6px 20px 0 rgba(88, 87, 87, 0.59);
+    background-color:rgba(255, 255, 255, 0.97);
+    
+
+   
+}
+h2{
+    text-align:center;
+    font-size:2.5rem;
+    font-family: 'Dosis', sans-serif;
+    color:rgb(36, 67, 92);
+    margin-top:0.3em;
+    margin-bottom:0.3em;
+    margin-left:5px;
+}
+
+h4{
+    font-size: 1.5em;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom:0.3em;
+    margin-left:5px;
+
+   
+
+}
+
+p{
+    margin-bottom:0px;
+    margin-left:15px;
+    color:rgb(134, 17, 17);
+    
+}
+
+form{
+    width: 800px;
+    height:1100px;
+
+}
+
+hr{
+    border-top-width:0.3px;
+    width:100%;
+    border:0.5px solid rgba(43, 43, 80,0.8);
+    opacity:0.7;
+   
+}
+
+.course_details hr{
+    border-top-width:0.3px;
+    width:100%;
+    border-top:2px solid rgba(43, 43, 80,0.8);
+    opacity:0.7;
+    margin-top:15px;
+
+}
+
+
+.personal{
+    width:100%;
+    height:30%;
+}
+.educational{
+    width:100%;
+    height:30%;
+}
+
+.course_details{
+
+    width:100%;
+    height:35%;
+    display:inline;
+
+    
+
+}
+
+
+input{
+    width:45%;
+    margin:8px 6px 0px 5px;
+    font-size: 1em;
+    border:2px solid rgba(42, 40, 54, 0.4);
+    border-radius: 4px;
+    height:30px;
+    opacity:0.8;
+    background-color:rgba(255, 255, 255, 0.3);
+}
+
+.course_details input{
+
+    margin:15px 6px 0px 5px;
+    size: 0.1em;
+    border:0px;
+    width:5%;
+    height:7%;
+
+
+}
+
+.course_details input[type="submit"]{
+
+    border:2px solid rgb(56, 31, 56);
+    background-color:rgb(52, 133, 119);
+    color:white;
+    font-size: 1.2em;
+    font-size: 1.2em;
+    border-radius: 8px;
+    
+    width:25%;
+    height:15%;
+    opacity:0.78;
+}
+.course_details input[type="reset"]{
+    
+   
+    border:2px solid rgb(56, 31, 56);
+    background-color:rgb(119, 54, 42);
+    color:white;
+    font-size: 1.2em;
+    border-radius: 8px;
+    
+    width:13%;
+    height:15%;
+    opacity:0.78;
+}
+
+
+
+select{
+    width:20%;
+    margin:5px 6px;
+    font-size: 1em;
+   
+    border:2px solid rgba(42, 40, 54, 0.4);
+    border-radius: 4px;
+    height:30px;
+    font-family: 'Lato', sans-serif; 
+    opacity:0.8;
+
+}
+label{
+
+    margin-top:16px;
+    margin-bottom:6px;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+    
+
+    color:rgb(50, 42, 97);
+
+}
+.left{
+    float:left;
+    width:25%;
+    display:flex;
+    text-align:justify;
+    
+    flex-flow:column;
+    height:90%;
+}
+
+.right{
+    float:right;
+    width:75%;
+    display:block;
+    height:90%;
+}
+
+.date{
+    font-size: 1em;
+   
+    font-family: 'Lato', sans-serif; 
+    
+
+}
+
+.block {
+    display: block;
+}
+
+#addr{
+    width:45%;
+    margin:4px 6px;
+    font-size: 1em;
+    border:2px solid rgba(42, 40, 54, 0.4);
+    border-radius: 4px;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif; 
+    height:60px;
+    opacity:0.7;
+}
+
+.small_width{
+    width:15%;
+    margin-top:5px;
+}
+
+input:hover{
+
+    border:3px solid rgba(26, 20, 56, 0.8);
+    border-radius: 4px;
+
+}
+select:hover{
+    border:3px solid rgba(26, 20, 56, 0.8);
+    border-radius: 4px;
+}
+
+/* Every label that is required is marked with * symbol so it denotes the important field in display  */
+.left .req:after { content:"*";
+color:red;margin-left:2px; }
+
+.resume{
+
+    width:45%;
+    margin:11px 6px 0px 5px;
+    font-size: 1em;
+
+    border:0px;
+    
+    height:40px;
+    opacity:0.8;
+    background-color:rgba(255, 255, 255, 0.3);
+
+}
+
+.resume:hover{
+    color:rgb(165, 39, 81);
+    border:0px;
+}

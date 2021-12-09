@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div id="main">
+        <h2>Geekster Admission Form</h2>
+
+        <hr>
+
+        <form action="#">
+
+            
+
+            <div class="personal">
+                <h4>Personal Info</h4>
+                <div class="left">
+                    <label for="fname" class="req">Your Name</label> 
+                    
+                    <label for="fname" class="req">Your Email</label> 
+                    
+                    <label for="phone">Contact</label> 
+                 
+                    <label for="date_of_birth" class="req">Date of Birth</label>
+                    
+                    <label for="Gender" class="req">Gender</label>
+                
+                    <label for="address">Address</label>
+                
+                </div>
+
+                
+    
+                <div class="right">
+                    <input type="text" name="f_name" id="fname" placeholder="First Name" required/>
+                
+                    <input type="text" name="l_name" id="lname" placeholder="Last Name" required>
+                    <br />
+                
+                    <input type="email" name="f_name" id="emailid" placeholder="E-mail" autocomplete="off" required/>
+    
+                    <br/>
+    
+                    <input type="tel" class="inline" name="phone" placeholder="Phone Number" required pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" title="Please enter in the format 1111-111-111"/>
+                    <br />
+    
+                    <input class="date" type="date" name="date_of_birth" max="2022-01-01" required />
+                    <br>
+    
+                    <select name="Gender" id="gender" required>
+                        <option selected disabled>Select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+    
+                    <textarea name="address" placeholder="Address" class="block" id="addr"></textarea>
+    
+                    
+    
+                   
+    
+    
+    
+    
+                </div>
+
+            </div>
+
+            <div class="educational">
+                <h4>Educational Info</h4>
+
+                <div class="left">
+                
+                    <label for="Degree" class="req">Degree</label>
+                    <label for="Yearofgrad" class="req"  min="2010" max="2022">Year of Graduation</label>
+                    <label for="percentage">Percentage</label>
+                    <label for="resume">Resume:</label>
+                    
+    
+                </div>
+
+                <div class="right">
+
+                    <select name="Degree" id="degree" required >
+
+                        <option selected disabled>Select Degree</option>
+                        <optgroup label="Bachelors">
+                            <option>B-Tech</option>
+                            <option>BSC</option>
+                            <option>Bcom</option>
+                            <option>BCA</option>
+                        </optgroup>
+    
+                        <optgroup label="Masters">
+                            <option>M-Tech</option>
+                            <option>MCA</option>
+                        </optgroup>
+                    </select>
+
+                    <br>
+    
+                    <input type="number" class="block small_width" name="Yearofgrad" required/>
+                    <br>
+
+                    <input type="number" name="percentage" class="block small_width" placeholder="Percentage" min="0" max="100" step="0.1" />
+
+                    <input type="file" class="block resume" name="resume"/>
+
+                </div>
+
+                <hr />
+            <h4 class="roboto-font">Course Details</h4>
+
+            <p >Which level do you want to enroll?</p>
+
+
+            <div class="course_details">
+
+                <input type="radio" name="course_type" ><span>Fundamentals</span>
+                <input type="radio" name="course_type"  ><span>Advanced</span>
+
+
+                <p >Which Course do you want to enroll?</p>
+
+                <input type="checkbox" name="course_name" ><span>Web</span>
+                <input type="checkbox" name="course_name"  ><span>DSA</span>
+
+                <hr />
+
+                <input type="submit" value="Apply for Admission" action="#"/>
+                <input type="reset" value="Reset" action="#" />
+
+
+
+
+
+
+            </div>
+
+
+
+            </div>
+
+            
+           
+            
+            
+    
+    
+        </form>
+
+    </div>
+   
+    
+</body>
+</html>
